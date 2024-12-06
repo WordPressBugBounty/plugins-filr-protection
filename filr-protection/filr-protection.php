@@ -2,17 +2,21 @@
 
 /*
 Plugin Name:	Filr
-Plugin URI:		https://patrickposner.dev/plugins/filr
+Plugin URI:		https://wpdocumentlibrary.com/
 Description: 	Simple and minimalistic file and document library plugin.
-Author: 		Patrick Posner
-Version:		1.2.5
+Author: 		WPChill
+Author URI:     https://wpchill.com
+Version:		1.2.6
 Text Domain:    filr
 Domain Path:    /languages
 *
+ *
+ * NOTE:
+ * Patrick Posner transferred ownership rights on: 6th of December, 2024 when ownership was handed over to WPChill
 */
 define( 'FILR_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'FILR_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
-define( 'FILR_VERSION', '1.2.5' );
+define( 'FILR_VERSION', '1.2.6' );
 // run plugin.
 if ( !function_exists( 'filr_run_plugin' ) ) {
     if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {

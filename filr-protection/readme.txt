@@ -1,10 +1,10 @@
 === Filr - Secure document library ===
-Contributors: patrickposner
+Contributors: wpchill, silkalns
 Tags: document library, file library, protect uploads, file protection, upload protection, upload directory protection, prevent direct access
 Requires at least: 3.5
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -143,6 +143,9 @@ Simply use the language switcher and translate all settings.
 4. Filr create library
 
 == Changelog ==
+
+= 1.2.6 - 06.12.2024 =
+* Changed: Update readme
 
 = 1.2.5 =
 
